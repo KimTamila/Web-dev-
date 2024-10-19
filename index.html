@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+  <title>Chaibucks</title>
+</head>
+
+<body>
+  <header class="header" id="home">
+    <div class="header_container">
+      <a href="#" class="logo">
+        <img src="images/starbucks.svg" alt="." class="starbucks_svg">
+      </a>
+      <div class="homeToggle" onclick="toggleHome();"></div>
+      <ul class="navigation">
+        <li><a href="#home" onclick="toggleHome();">Home</a></li>
+        <li><a href="#news" onclick="toggleHome();">News</a></li>
+        <li><a href="#categories" onclick="toggleHome();">Menu</a></li>
+        <li><a href="#items" onclick="toggleHome();">Items</a></li>
+      
+        <li><a href="#contacts" onclick="toggleHome();">Contacts</a></li>
+      </ul>
+
+      <div class="header_right">
+        <input type="text" placeholder="Search" class="search" aria-label="Search">
+        <a href="#" class="log-in">Log In</a>
+        <a href="#" class="sign-up">Sign up</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="header_bottom">
+    <h3 class="header_txt">Find your adventure</h3>
+    <img src="images/coffe_row.png" alt="." class="coffe_row">
+    <div class="purchase_btn">
+      <a href="#" class="purchase">PURCHASE</a>
+    </div>
+  </div>
+
+  <section class="news" id="news">
+    <h2 class="news_title"><span>For your </span>enjoy-mint</h2>
+    <div class="news_content">
+      <div class="news_info">
+        <p class="news_paragraph">
+          Hooray for our newest cooler-than-cool Chocolate Java Mint Frappuccino® blended beverage.         
+        </p>
+      </div>
+      <div class="news_img">
+        <img src="images/new.png" class="news_img">
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+  <section class="category" id="categories">
+    <h2 class="news_title"><span>S</span>elect the Category</h2>
+    <div class="categories_list">
+      <div class="categories_top">
+
+        <div class="categories">
+          <label for="categories">Category</label>
+          <select name="categories" id="select" class="all_categories">
+            <option value="">All categories</option>
+            <option value="">Hot drinks</option>
+            <option value="">Iced drinks</option>
+            
+          </select>
+        </div>
+        <div class="color">
+          <label for="color">milk</label>
+          <select name="color" id="select" class="all_colors">
+            <option value="">regular</option>
+            <option value="">almond</option>
+            <option value="">soy</option>
+            <option value="">coconut</option>
+            <option value="">oat</option>
+          </select>
+        </div>
+
+        <div class="checkbox">
+          <input type="checkbox" id="available" name="available">
+          <label for="scales" class="checkbox_model">Available in stock</label>
+        </div>
+
+      </div>
+      <div class="main_sub_top">
+        <div class="model">
+          <label for="model">Drink</label>
+          <select name="Drink" id="select" class="all_models">
+            <option value="">All drinks</option>
+            <option value="">latte</option>
+            <option value="">americano</option>
+            <option value="">capuccino</option>
+            <option value="">Frappuccino</option>
+          </select>
+        </div>
+        <div class="quality">
+          <label for="Size">Size</label>
+          <select name="Size" id="select" class="all_qualities">
+            <option value="">All sizes</option>
+            <option value="">Tall</option>
+            <option value="">Grande</option>
+            <option value="">Venty</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="content">
+    <section class="container content-section" id="items">
+      <h2 class="section-header">COFFEE</h2>
+      <div class="shop-items">
+        <div class="shop-item">
+          <span class="shop-item-title">Matcha tea latte</span>
+          <img class="shop-item-image" src="images/color_1.jpg">
+          <div class="shop-item-details">
+            <span class="shop-item-price">9.9$</span>
+            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Flat White</span>
+          <img class="shop-item-image" src="images/color_2.png">
+          <div class="shop-item-details">
+            <span class="shop-item-price">6.3$</span>
+            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Caramell Latte</span>
+          <img class="shop-item-image" src="images/color_3.png">
+          <div class="shop-item-details">
+            <span class="shop-item-price">10.2$</span>
+            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Chai Tea Latte</span>
+          <img class="shop-item-image" src="images/color_4.png">
+          <div class="shop-item-details">
+            <span class="shop-item-price">9.7$</span>
+            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Capuccino</span>
+          <img class="shop-item-image" src="images/color_1.png">
+          <div class="shop-item-details">
+            <span class="shop-item-price">9.8$</span>
+            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Latte Machiatto</span>
+          <img class="shop-item-image" src="images/color_2.png">
+          <div class="shop-item-details">
+            <span class="shop-item-price">13$</span>
+            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Mocha</span>
+          <img class="shop-item-image" src="images/color_3.png">
+          <div class="shop-item-details">
+            <span class="shop-item-price">7.9$</span>
+            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Latte</span>
+          <img class="shop-item-image" src="images/color_4.png">
+          <div class="shop-item-details">
+            <span class="shop-item-price">9.4$</span>
+            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Matcha Tea</span>
+          <img class="shop-item-image" src="images/color_1.jpg">
+          <div class="shop-item-details">
+            <span class="shop-item-price">10$</span>
+            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container content-section">
+      <h2 class="section-header">cold drinks</h2>
+      <div class="shop-items">
+        <div class="shop-item">
+          <span class="shop-item-title">cold drinks</span>
+          <img class="shop-item-image" src="images/1.png"">
+                <div class=" shop-item-details">
+          <span class="shop-item-price">8.5$</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+      <div class="shop-item">
+        <span class="shop-item-title">cold drinks</span>
+        <img class="shop-item-image" src="images/2.png">
+        <div class="shop-item-details">
+          <span class="shop-item-price">5.9$</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+      <div class="shop-item">
+        <span class="shop-item-title">cold drinks</span>
+        <img class="shop-item-image" src="images/3.png">
+        <div class="shop-item-details">
+          <span class="shop-item-price">7.3$</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+  </div>
+  <div class="pages">
+    <a href="#" class="page_1">1</a>
+    <a href="#" class="page_2">2</a>
+    <a href="#" class="page_3">3</a>
+    <a href="#" class="dotes">...</a>
+    <a href="#" class="page_7">7</a>
+    <a href="#" class="next">Next</a>
+    <img src="images/arrow.png" alt="arrow" class="arrow">
+  </div>
+  </div>
+
+  <section class="container content-section">
+    <h2 class="section-header">CART</h2>
+    <div class="cart-row">
+      <span class="cart-item cart-header cart-column">ITEM</span>
+      <span class="cart-price cart-header cart-column">PRICE</span>
+      <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+    </div>
+    <div class="cart-items">
+    </div>
+    <div class="cart-total">
+      <strong class="cart-total-title">Total</strong>
+      <span class="cart-total-price">$0</span>
+    </div>
+    <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+  </section>
+  </section>
+
+  <section class="order_section" id="contacts">
+    <div class="order_container">
+      <div class="order_box">
+        <h1 class="order_txt">Want to buy? <span>C</span>ontact Us</h1>
+        <input type="text" placeholder="Your name" class="order_name">
+        <input type="text" placeholder="Phone number" class="order_phone">
+        <div class="order_sub_txt">Leave a request and we will contact you
+        </div>
+        <div class="order_btn">
+          <a href="#" class="order">Order</a>
+        </div>
+      </div>
+      <img src="images/5.png" alt="order" class="final_order">
+    </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer_content">
+      <div class="insta">
+        <img src="images/insta.svg" alt="insta" width="33">
+        <div class="insta_txt">Instagram</div>
+      </div>
+
+      <div class="post">
+        <img src="images/post.svg" alt="post" width="33">
+        <div class="post_txt">Post@gmail.com</div>
+      </div>
+
+      <div class="phone">
+        <img src="images/phone.svg" alt="phone" width="33">
+        <div class="contact_info">
+          <div class="city_txt">Astana city</div>
+          <div class="phone_txt">+7 777 777 77 77</div>
+        </div>
+      </div>
+
+      <div class="phone">
+        <img src="images/phone.svg" alt="phone" width="33">
+        <div class="contact_info">
+          <div class="city_txt">Almaty city</div>
+          <div class="phone_txt">+7 777 777 77 77</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
